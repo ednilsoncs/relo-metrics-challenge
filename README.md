@@ -1,3 +1,7 @@
+### Information
+  This is a challenge for developers applying for the Frontend Engineer position at Role Metrics. Detailed instructions and requirements for this project can be found in the TODO.md file.
+
+
 ### How to Run a React Project in Development
 
 1. **Prerequisites:**
