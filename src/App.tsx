@@ -1,11 +1,10 @@
 import './styles/global.css';
 import 'react-toastify/dist/ReactToastify.css';
-import AnalyzerPage from './pages/analyzer/analyzer'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { ToastContainer } from 'react-toastify';
+import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
+import {ToastContainer} from 'react-toastify';
+import AnalyzerPage from './pages/analyzer/analyzer';
 
-
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
 function App() {
   return (

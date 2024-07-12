@@ -1,5 +1,5 @@
-export enum REACT_QUERY_KEYS {
+export enum ReactQueryKeys {
   CATEGORY = 'category',
   IMAGES = 'images',
-  ANNOTATION= 'annotation'
+  ANNOTATION = 'annotation',
 }
