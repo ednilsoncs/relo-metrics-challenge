@@ -1,0 +1,23 @@
+.image-container {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.annotation {
+  position: absolute;
+  border: 2px solid #ff0000;
+  background-color: rgba(255, 0, 0, 0.15);
+  width: 100px;
+  height: 75px;
+  top: 250px;
+  left: 275px;
+}
